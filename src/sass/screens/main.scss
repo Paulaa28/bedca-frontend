@@ -1,23 +1,45 @@
 .navbar {
     width: 100vw;
     height: 60px;
-    background-color:aqua;
+    background-color:rgb(19, 132, 236);
     position:fixed;
     top: 0;
-
+    img{
+        position: absolute;
+        width: 4%;
+        left:20px;
+    }
     ul {
         list-style: none;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        color:white;
 
         li {
             a:link, a:visited, a:active {
-                text-decoration:none;  
+                text-decoration:none; 
+                color:white;
+                font-size: 22px; 
+                font-weight: bolder;
+            }
+            a:hover{
+                
+                animation: borde 0.4s ;
+
             }
         }
+       
     }
     
+}
+@keyframes borde{
+    from{
+        border-bottom:1px solid oldlace;
+    }
+    to{
+        border-bottom:4px solid oldlace;
+    }
 }
 // vw view * width (width el ancho de la pantalla)
 // vh view * height (height el alto de la pantalla)
