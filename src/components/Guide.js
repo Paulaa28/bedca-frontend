@@ -14,7 +14,7 @@ function Guia() {
           la tramitación y uso de este servicio.
         </p>
       </div>
-      <div className="formulario">
+      <div className="form">
         <form>
           <div>
             <label for="">Nombre</label>
