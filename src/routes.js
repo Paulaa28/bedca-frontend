@@ -5,7 +5,8 @@ import App from './App';
 import {
     Contact,
     Home,
-    ListFood
+    ListFood,
+    Api
 } from './screens';
 
 function AppRoutes() {
@@ -26,6 +27,11 @@ function AppRoutes() {
                     exact
                     path="/listfood"
                     component={ListFood}
+                />
+                 <Route
+                    exact
+                    path="/api"
+                    component={Api}
                 />
                 <Redirect exact from="/" to="/home" />
                 <Redirect from="*" to="/home" />

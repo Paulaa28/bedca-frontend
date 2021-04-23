@@ -1,0 +1,55 @@
+.formulario{
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    transform: translate(60%, 20%);
+    background-color:rgba(22, 113, 231, 0.959);
+    border-radius: 30%;
+  
+   
+}
+form{
+    //border:blue 2px solid;
+    height: 100%;
+}
+form>div{
+    //border:green 2px solid;
+   margin-top:3%;
+   display: grid;
+   text-align: center;
+   justify-content: center;
+}
+form>div>label{
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 5px;
+   
+}
+form>div>input{
+    
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border:none;
+    font-weight: bold;
+    font-size: 18px;
+}
+form>div>input[type="submit"]{
+    background-color: rgba(9, 152, 247, 0.897);
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+form>div>input:focus,form>div>textarea:focus{
+    outline:none;
+}
+form>div>textarea{
+    resize: none;
+    height: 150px;
+    width: 500px;
+    border-radius: 22px;
+    border:none;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -8,7 +8,8 @@ export default function NavBar() {
             <img src={Logo}></img>
             <ul>
                 <li><Link to="/home">Home</Link></li>|
-                <li><Link to="/listfood">List Food</Link></li>|
+                <li><Link to="/listfood">ListFood</Link></li>|
+                <li><Link to="/api">ApiGuide</Link></li>|
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
         </div> 
