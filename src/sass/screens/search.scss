@@ -1,0 +1,51 @@
+.searchFood {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.568);
+  margin-top: 250px;
+  width: 50vw;
+  position: relative;
+  padding-left: 20px;
+  left:400px;
+
+  h2,
+  h4 {
+    color: white;
+    font-weight: bold;
+   
+  }
+  h2 {
+    padding-top: 20px;
+  }
+  h4 {
+    margin-bottom: -10px;
+    font-size: 18px;
+  }
+  .searchTool {
+    width: 100vw;
+    height: 30vh;
+    padding-top: 20px;
+  }
+  input {
+    width: 40%;
+    height: 20%;
+    border-radius: 24px 0px 0px 24px;
+    border: none;
+    outline:0px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+  }
+  button {
+    width: 7%;
+    height: 20%;
+    background-color: rgb(28, 79, 245);
+    border: none;
+    border-radius: 0px 24px 24px 0px;
+    color: white;
+    font-size: medium;
+  
+  }
+  button:hover {
+    background-color: rgb(20, 62, 199);
+  }
+}
