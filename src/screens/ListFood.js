@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { NavBar, TableFood } from '../components'
+import { TableFood } from '../components'
 import API_BEDCA from '../services/bedcaApi'
 
 function ListFood() {
@@ -11,7 +11,6 @@ function ListFood() {
 
     return (
         <div className="list-food-container">
-            <NavBar />
             <TableFood food={food} />
         </div>
     )

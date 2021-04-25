@@ -1,13 +1,15 @@
 @import './components/index.scss';
 @import './screens/index.scss';
 
+body, .app, #root {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw;
+    height: 100vh;
+}
 body {
     background-image: url(../image/foodScreen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 50vh;
-    width: 0vw;
-    margin: 0;
-    padding: 0;
 }

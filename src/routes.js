@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-
 import App from './App';
+import {Wrapper} from './components';
 import {
     Contact,
     Home,
@@ -13,26 +13,39 @@ function AppRoutes() {
     return (
         <App>
             <Switch>
-                <Route
+            <Route
                     exact
                     path="/home"
-                    component={Home}
-                />
+                >
+                    <Wrapper>
+                        <Home />
+                    </Wrapper>
+                </Route>
                 <Route
                     exact
                     path="/contact"
-                    component={Contact}
-                />
+                >
+                    <Wrapper>
+                        <Contact />
+                    </Wrapper>
+                </Route>
                 <Route
                     exact
                     path="/listfood"
-                    component={ListFood}
-                />
-                 <Route
+                >
+                    <Wrapper>
+                        <ListFood />
+                    </Wrapper>
+                </Route>
+                <Route
                     exact
                     path="/api"
-                    component={Api}
-                />
+                >
+                    <Wrapper>
+                        <Api />
+                    </Wrapper>
+                </Route>
+                
                 <Redirect exact from="/" to="/home" />
                 <Redirect from="*" to="/home" />
             </Switch>
