@@ -1,0 +1,37 @@
+{
+    "app.welcome":"pepa",
+    "menu.home":"Inicio",
+    "menu.api":"Api",
+    "menu.contact":"Contacto",
+    
+    "inicio":"=================================",
+    "title.search":"Bedca",
+    "subTitle.search":"Escribe cualquier comida:",
+    "input.search":"Escriba su busqueda",
+    "button.search":"Buscar",
+
+    "api":"=================================",
+    "title.api":"Guia Api",
+    "option1.api":"Opcion 1",
+    "option2.api":"Opcion 2",
+    "option3.api":"Opcion 3",
+    "option4.api":"Opcion 4",
+    "title-option.api":"Opcion1",
+    "text-option.api":"texto traducido e indicado aqui",
+    "title-option2.api":"Opcion2",
+    "text-option2.api":"texto traducido e indicado aqui",
+    "title-option3.api":"Opcion3",
+    "text-option3.api":"texto traducido e indicado aqui",
+    "title-option4.api":"Opcion4",
+    "text-option4.api":"texto traducido e indicado aqui",
+
+
+    "contacto":"=================================",
+    "title.value":"Contacto",
+    "text.value":"Si desea ponerse en contacto con nosotros por alguna duda relacionada con la API. O, por otras circunstacias, escriba sus datos en el siguiente apartado.  Nos pondremos en contacto con usted lo más pronto posible.",
+    "label.email":"Correo",
+    "input.placeholder":"Escriba su correo",
+    "label.message":"Mensaje",
+    "textArea.value":"Comenta aquí",
+    "submit.value":"Enviar"
+}

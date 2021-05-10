@@ -1,11 +1,10 @@
 import Contact from './Contact';
 import Home from './Home';
-import ListFood from './ListFood';
 import Api from './Api'
-
+import Food from './Food'
 export {
     Contact,
     Home,
-    ListFood,
-    Api
+    Api,
+    Food
 }

@@ -5,8 +5,8 @@ import App from './App';
 import {
     Contact,
     Home,
-    ListFood,
-    Api
+    Api,
+    Food
 } from './screens';
 
 function AppRoutes() {
@@ -23,15 +23,15 @@ function AppRoutes() {
                     path="/contact"
                     component={Contact}
                 />
-                <Route
-                    exact
-                    path="/listfood"
-                    component={ListFood}
-                />
                  <Route
                     exact
                     path="/api"
                     component={Api}
+                />
+                <Route 
+                exact
+                path="/food/:id"
+                component={Food}
                 />
                 <Redirect exact from="/" to="/home" />
                 <Redirect from="*" to="/home" />

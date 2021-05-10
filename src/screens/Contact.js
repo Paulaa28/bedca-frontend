@@ -1,11 +1,14 @@
 import React from "react";
 import { NavBar } from "../components";
 import { Form } from "../components";
+import {Translate} from '../components'
+
 function Contact() {
   return (
     <div>
       <NavBar />
-      <Form />
+      <Form/>
+      <Translate/>
     </div>
   );
 }

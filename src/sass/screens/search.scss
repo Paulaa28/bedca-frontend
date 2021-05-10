@@ -1,51 +1,100 @@
+.content {
+  height: 100vh;
+  width: 100vw;
+
+  
+}
+
 .searchFood {
-  height: 200px;
+  height: 30vh;
+  width: 55vw;
   background-color: rgba(0, 0, 0, 0.568);
-  margin-top: 250px;
-  width: 50vw;
-  position: relative;
-  padding-left: 20px;
-  left:400px;
+  position: sticky;
+  left:25%;
+  top:30%;
+ 
 
   h2,
   h4 {
     color: white;
     font-weight: bold;
-   
   }
   h2 {
-    padding-top: 20px;
+    padding-top: 10px;
+   
+    margin-left:20px;
   }
   h4 {
-    margin-bottom: -10px;
+    margin-left:40px;
     font-size: 18px;
+    
   }
   .searchTool {
     width: 100vw;
-    height: 30vh;
-    padding-top: 20px;
-  }
-  input {
-    width: 40%;
-    height: 20%;
-    border-radius: 24px 0px 0px 24px;
-    border: none;
-    outline:0px;
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-  }
-  button {
-    width: 7%;
-    height: 20%;
-    background-color: rgb(28, 79, 245);
-    border: none;
-    border-radius: 0px 24px 24px 0px;
-    color: white;
-    font-size: medium;
+    height: 10vh;
   
+    display: flex;
+    text-align: center;
+
+    #search {
+      width: 100%;
+      padding-left: 100px;
+      height: 50px;
+      border-radius: 24px 0px 0px 24px;
+      border: none;
+      outline: 0px;
+      font-size: large;
+      font-weight: bold;
+      text-align: center;
+      margin-left:30%;
+      
+    }
+
+    #btn-search {
+      width: 60%;
+      height: 52px;
+      margin-left: 103px;
+      background-color: rgb(28, 79, 245);
+      border: none;
+      border-radius: 0px 24px 24px 0px;
+      color: white;
+      font-size: medium;
+      margin-right:-144%;
+      
+
+      &:hover {
+        background-color: rgb(20, 62, 199);
+      }
+    }
   }
-  button:hover {
-    background-color: rgb(20, 62, 199);
+
+  .foods{
+    background-color: rgb(255, 255, 255);
+    width: 428px;
+    height: 25%;
+    margin-left: 117px;
+    margin-top: -27px;
+    margin-bottom: 27px;
+    border-radius: 5px;
+    padding: 0px;
+    padding-top: 22px;
+    text-align: center;
+    border-top:2px solid black;
+
+    a,a:focus,a:visited,a:hover{
+      text-decoration: none;
+      color:black;
+      font-weight: bold;
+      font-size:19px;
+      height: 1200px;
+      text-transform: uppercase;
+      .id{
+       
+        margin-left: 12%;
+      }
+      .username{
+        margin-left: 50%;
+      }
+    }
   }
 }

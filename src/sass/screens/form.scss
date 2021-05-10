@@ -1,55 +1,94 @@
-.formulario{
-    position: absolute;
-    height: 600px;
-    width: 600px;
-    transform: translate(60%, 20%);
-    background-color:rgba(22, 113, 231, 0.959);
-    border-radius: 30%;
-  
-   
+.formulario {
+  position: absolute;
+  height: 600px;
+  width: 1000px;
+  transform: translate(20%, 20%);
+  background-color: rgba(0, 0, 0, 0.568);
+  border: 2px solid white;
+  // &:after{
+  //     content:"";
+  //     position: relative;
+  //     width: 2px;
+  //     height: 60%;
+  //     display:block;
+  //     margin-top: -50%;
+  //     margin-left:49%;
+  //     border-left: 8px solid rgba(243, 238, 238, 0.658);
+
+  // }
 }
-form{
-    //border:blue 2px solid;
-    height: 100%;
+
+.title {
+  width: 40%;
+  margin: 0;
+  left: 0px;
+  color: rgb(247, 241, 241);
+  border-bottom: 4px solid white;
+  text-indent: 20%;
 }
-form>div{
-    //border:green 2px solid;
-   margin-top:3%;
-   display: grid;
-   text-align: center;
-   justify-content: center;
+.text {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+  // text-shadow: 5px 2px rgb(17, 16, 17);
+  // overflow-y: scroll;
+  width: 42%;
+  height: 80%;
+  line-height: 40px;
+  word-spacing: 10px;
+  margin-left: 20px;
+  text-align: left;
 }
-form>div>label{
-    color:white;
-    font-weight: bold;
-    font-size: 22px;
-    margin-bottom: 5px;
-   
+
+form {
+  // border-left: 12px solid rgba(243, 238, 238, 0.164);
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: -8%;
+  width: 50%;
+  height: 100%;
 }
-form>div>input{
-    
-    width: 400px;
-    height: 40px;
-    border-radius: 20px;
-    border:none;
-    font-weight: bold;
-    font-size: 18px;
+form > div {
+  margin-top: 6%;
+  display: grid;
+  justify-content: center;
 }
-form>div>input[type="submit"]{
-    background-color: rgba(9, 152, 247, 0.897);
-    color:white;
-    font-weight: bold;
-    font-size: 18px;
+form > div > label {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 5px;
 }
-form>div>input:focus,form>div>textarea:focus{
-    outline:none;
+form > div > input {
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-indent: 22px;
 }
-form>div>textarea{
-    resize: none;
-    height: 150px;
-    width: 500px;
-    border-radius: 22px;
-    border:none;
-    font-weight: bold;
-    font-size: 18px;
+form > div > input[type="submit"] {
+  background-color: rgba(9, 152, 247, 0.952);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+form > div > input:focus,
+form > div > textarea:focus {
+  outline: none;
+}
+form > div > textarea {
+  resize: none;
+  height: 250px;
+  width: 400px;
+  border-radius: 22px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-indent: 22px;
+}
+form > div > textarea::placeholder {
+  margin-top: 20px;
 }
