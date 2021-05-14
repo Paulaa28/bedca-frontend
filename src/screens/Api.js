@@ -1,15 +1,10 @@
 import React from "react";
-import Navbar from "../components/NavBar";
-import Guide from '../components/guide';
-import { Translate } from "../components";
-import Aside from "../components/Aside";
-
-
+import {NavBar, Guide, Translate, Aside} from '../components';
 
 function ApiGuide() {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <div className="content">
       <Aside/>
       <Guide className="Guide"/>

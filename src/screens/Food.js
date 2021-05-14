@@ -26,7 +26,7 @@ function Food() {
 
   useEffect(() => {
     fetchApi();
-  }, []);
+  });
 
   return (
     <div className="background-food">

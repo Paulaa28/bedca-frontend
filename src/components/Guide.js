@@ -3,7 +3,7 @@ import Title from "./Title";
 import Text from "./Text";
 import { FormattedMessage } from "react-intl";
 
-function guide(props) {
+function Guide(props) {
   return (
     <div className={props.className}>
       <div className="Option" id="Option1">
@@ -54,4 +54,4 @@ function guide(props) {
   );
 }
 
-export default guide;
+export default Guide;

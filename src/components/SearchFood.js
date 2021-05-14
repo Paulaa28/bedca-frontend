@@ -1,27 +1,16 @@
-import React, { useEffect, useState } from "react";
+import { useState, useEffect } from 'react';
+import API_BEDCA from '../services/bedcaApi'
 import { FormattedMessage } from "react-intl";
 import { Link } from "react-router-dom";
-import Input from "../components/Input";
-import Button from "../components/Button";
+import { Input, Button } from "./";
 
-export default function NavBar() {
-  // const url = "http://127.0.0.1:8000/api/users/";
-  const url = "http://127.0.0.1:8000/api/food/";
-
-  const [data, setData] = useState([]);
-  const [item, setItem] = useState();
-
-  const fetchApi = async () => {
-    const response = await fetch(url);
-    console.log(response.status);
-    const responseJson = await response.json();
-    setData(responseJson.results);
-    // console.log(responseJson);
-  };
-
-  useEffect(() => {
-    fetchApi();
-  }, []);
+export default function SearchFood() {
+  const [item, setItem] = useState('')
+  const [food, setFood] = useState([])
+  useEffect(async () => {
+      const food = await API_BEDCA.get('food')
+      setFood(food.results)
+  }, [])
 
   return (
     <div className="content">
@@ -43,7 +32,7 @@ export default function NavBar() {
                 name="search"
                 id="search"
                 placeholder={placeholder}
-                onChange={(e) => setItem(e.target.value)}
+                onChange={setItem}
               />
             )}
           </FormattedMessage>
@@ -51,14 +40,7 @@ export default function NavBar() {
             {(value) => <Button id="btn-search" value={value} />}
           </FormattedMessage>
         </div>
-       {console.log(data)}
-       {data ? data.filter((val) => {
-                if (item === "") {
-                  return "";
-                } else if (val.es_description.toLowerCase().includes(item)) {
-                  return val;
-                }
-              })
+       {food ? food.filter((val) => item.length > 0 ? val.es_description.toLowerCase().includes(item) : '')
               .map((datos, key) => (
                 <div className="foods" key={key}>
                 <Link to={`/food/${datos.id}`}>
@@ -73,3 +55,4 @@ export default function NavBar() {
     </div>
   );
 }
+

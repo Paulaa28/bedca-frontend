@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Text(props) {
+function Text({className, id, value}) {
     return (
-        <div className={props.className} id={props.id ? props.id : null}>
-            <p>{props.value}</p>
+        <div className={className} id={id ? id : null}>
+            <p>{value}</p>
         </div>
     )
 }

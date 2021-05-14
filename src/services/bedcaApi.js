@@ -38,4 +38,9 @@ export function getToken() {
     return 'cb79960e5857ab02ba9d8a9c8aaf511fed14a543';
 }
 
-export default { ...API, getToken };
+const bedcaApi = {
+    ...API,
+    getToken
+}
+
+export default bedcaApi;

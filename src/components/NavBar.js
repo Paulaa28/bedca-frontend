@@ -11,7 +11,7 @@ export default function NavBar() {
 // console.log(idiom.changeLanguage());
   return (
     <div className="navbar">
-      <img src={Logo} alt="logo"></img>
+      {/* <img src={Logo} alt="logo"></img> */}
       <ul>
         <li>
           <Link to="/home">
