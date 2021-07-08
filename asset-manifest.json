@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ReactFood/static/css/main.21b4860b.chunk.css",
+    "main.js": "/ReactFood/static/js/main.51ebb1a5.chunk.js",
+    "main.js.map": "/ReactFood/static/js/main.51ebb1a5.chunk.js.map",
+    "runtime-main.js": "/ReactFood/static/js/runtime-main.3a9fa68c.js",
+    "runtime-main.js.map": "/ReactFood/static/js/runtime-main.3a9fa68c.js.map",
+    "static/js/2.1168e409.chunk.js": "/ReactFood/static/js/2.1168e409.chunk.js",
+    "static/js/2.1168e409.chunk.js.map": "/ReactFood/static/js/2.1168e409.chunk.js.map",
+    "static/js/3.c74eecdb.chunk.js": "/ReactFood/static/js/3.c74eecdb.chunk.js",
+    "static/js/3.c74eecdb.chunk.js.map": "/ReactFood/static/js/3.c74eecdb.chunk.js.map",
+    "index.html": "/ReactFood/index.html",
+    "static/css/main.21b4860b.chunk.css.map": "/ReactFood/static/css/main.21b4860b.chunk.css.map",
+    "static/js/2.1168e409.chunk.js.LICENSE.txt": "/ReactFood/static/js/2.1168e409.chunk.js.LICENSE.txt",
+    "static/media/fondo1.0d8dd4fc.jpg": "/ReactFood/static/media/fondo1.0d8dd4fc.jpg",
+    "static/media/fondo2.768f252b.jpg": "/ReactFood/static/media/fondo2.768f252b.jpg",
+    "static/media/fondo3.dac4b982.jpg": "/ReactFood/static/media/fondo3.dac4b982.jpg",
+    "static/media/fondo4.a7210c92.jpg": "/ReactFood/static/media/fondo4.a7210c92.jpg",
+    "static/media/fondo5.d83ded5b.jpg": "/ReactFood/static/media/fondo5.d83ded5b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a9fa68c.js",
+    "static/js/2.1168e409.chunk.js",
+    "static/css/main.21b4860b.chunk.css",
+    "static/js/main.51ebb1a5.chunk.js"
+  ]
+}
